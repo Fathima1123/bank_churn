@@ -42,17 +42,17 @@ The dataset used for this analysis is the **Bank Churners dataset**. It includes
 
 This rich dataset allows for in-depth analysis of various factors that may contribute to customer churn, including demographic information, card usage patterns, transaction history, and customer engagement metrics.
 
-# Analysis
+## Analysis
 The notebook bank_churners_analysis.ipynb performs the following analysis steps:
 
-# Data Cleaning and Preprocessing
+## Data Cleaning and Preprocessing
 
 Handling missing values
 Encoding categorical variables
 Feature scaling and normalization
 
 
-# Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 
 Univariate analysis of key features
 Bivariate analysis to identify relationships between variables
@@ -60,7 +60,7 @@ Correlation analysis
 Visualization of key insights
 
 
-# Churn Prediction Modeling
+## Churn Prediction Modeling
 
 Feature selection
 Model selection (e.g., Logistic Regression, Random Forest, XGBoost)
@@ -68,7 +68,7 @@ Model training and evaluation
 Hyperparameter tuning
 
 
-# Insights and Visualizations
+## Insights and Visualizations
 
 Key factors influencing churn
 Customer segmentation analysis
@@ -76,7 +76,7 @@ Actionable recommendations for reducing churn
 
 
 
-How to Run the Notebook
+## How to Run the Notebook
 
 Clone the repository:
 bashCopygit clone https://github.com/Fathima1123/bank_churn.git
@@ -92,7 +92,7 @@ bashCopyjupyter notebook
 
 Open the notebooks/bank_churners_analysis.ipynb file and run the cells sequentially.
 
-Requirements
+## Requirements
 The main libraries used in this project are:
 
 pandas
@@ -103,7 +103,7 @@ scikit-learn
 xgboost
 
 A complete list of dependencies can be found in the requirements.txt file.
-Results and Insights
+## Results and Insights
 (This section can be populated after completing the analysis. Include key findings, visualizations, and actionable insights derived from the analysis.)
 Contributing
 Contributions to this project are welcome! Please follow these steps:
@@ -114,5 +114,5 @@ Make your changes and commit them: git commit -m 'Add some feature'
 Push to the branch: git push origin feature/your-feature-name
 Submit a pull request
 
-License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
