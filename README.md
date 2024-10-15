@@ -42,38 +42,17 @@ The dataset used for this analysis is the **Bank Churners dataset**. It includes
 
 This rich dataset allows for in-depth analysis of various factors that may contribute to customer churn, including demographic information, card usage patterns, transaction history, and customer engagement metrics.
 
-Project Structure
-Copybank_churn/
-│
-├── data/
-│   └── bank_churners.csv
-│
-├── notebooks/
-│   └── bank_churners_analysis.ipynb
-│
-├── src/
-│   ├── data_preprocessing.py
-│   ├── exploratory_data_analysis.py
-│   └── modeling.py
-│
-├── results/
-│   ├── visualizations/
-│   └── model_performance/
-│
-├── requirements.txt
-├── README.md
-└── .gitignore
-Analysis
+# Analysis
 The notebook bank_churners_analysis.ipynb performs the following analysis steps:
 
-Data Cleaning and Preprocessing
+# Data Cleaning and Preprocessing
 
 Handling missing values
 Encoding categorical variables
 Feature scaling and normalization
 
 
-Exploratory Data Analysis (EDA)
+# Exploratory Data Analysis (EDA)
 
 Univariate analysis of key features
 Bivariate analysis to identify relationships between variables
@@ -81,7 +60,7 @@ Correlation analysis
 Visualization of key insights
 
 
-Churn Prediction Modeling
+# Churn Prediction Modeling
 
 Feature selection
 Model selection (e.g., Logistic Regression, Random Forest, XGBoost)
@@ -89,7 +68,7 @@ Model training and evaluation
 Hyperparameter tuning
 
 
-Insights and Visualizations
+# Insights and Visualizations
 
 Key factors influencing churn
 Customer segmentation analysis
